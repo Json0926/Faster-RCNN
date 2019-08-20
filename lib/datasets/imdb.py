@@ -80,7 +80,7 @@ class imdb(object):
         cache_path = osp.abspath(osp.join(cfg.FLAGS2["data_dir"], 'cache'))
         if not os.path.exists(cache_path):
             os.makedirs(cache_path)
-        return cache_pa
+        return cache_path
 
     @property
     def num_images(self):
